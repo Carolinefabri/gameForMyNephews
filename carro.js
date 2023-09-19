@@ -1,8 +1,8 @@
-let yCarros = [100,196,280 , 380 , 450 , 578];
-let velocidadeCarros = [ 5, 4 , 7.5 , 6 , 4.2 , 4.7];
+let yCarros = [20,110,220 , 300 , 390 , 500];
+let velocidadeCarros = [ 3, 4 , 5.5 , 3.5 , 4 , 3.5];
 let xCarros = [ 1350 , 1350 , 1350 , 1350 , 1350 , 1350 ];
-let comprimentoDoCarro = 70;
-let alturaDoCarro = 50;
+let comprimentoDoCarro = 250;
+let alturaDoCarro = 150;
 
 
 

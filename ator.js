@@ -1,12 +1,12 @@
 // ator
-let yAtor = 645;
+let yAtor = 635;
 let xAtor = 450;
 let colisao = false;
 let meusPontos  = 0;
 
 
 function mostraAtor (){
- image(imagemDoAtor, xAtor, yAtor, 50, 50 );
+ image(imagemDoAtor, xAtor, yAtor, 70, 70 );
 }
 
 function movimentaAtor(){
@@ -36,7 +36,7 @@ function verificaColisao (){
 }
 
 function voltaAtorParaPosicaoInicial (){
-  yAtor = 645;
+  yAtor = 635;
 }
 
 function incluiPontos (){
