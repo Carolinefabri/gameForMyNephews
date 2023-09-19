@@ -1,6 +1,6 @@
 # Crossing the Road - A JavaScript Logic Game
 
-![Game Screenshot](game.png)
+![Game Screenshot](imagens/game.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
