@@ -1,25 +1,30 @@
 // ator
 let yAtor = 635;
-let xAtor = 450;
+let xAtor;
 let colisao = false;
-let meusPontos  = 0;
+let meusPontos = 0;
 
-
-function mostraAtor (){
- image(imagemDoAtor, xAtor, yAtor, 70, 70 );
+function setup() {
+  createCanvas(800, 800); // Ajuste o tamanho do canvas conforme necessário
+  xAtor = width / 5; // Posição horizontal do ator, alinhada com o placar de pontos
 }
 
-function movimentaAtor(){
-  if (keyIsDown(UP_ARROW)){
+function mostraAtor() {
+  image(imagemDoAtor, xAtor, yAtor, 70, 70);
+}
+
+function movimentaAtor() {
+  if (keyIsDown(UP_ARROW)) {
     yAtor -= 3;
-    
   }
-  if (keyIsDown(DOWN_ARROW)){
-    if (podeSeMover()){
-    yAtor += 3;
+  if (keyIsDown(DOWN_ARROW)) {
+    if (podeSeMover()) {
+      yAtor += 3;
     }
   }
 }
+
+// Restante do seu código...
 
 function verificaColisao (){
   for ( let i = 0; i < imagemCarros.length; i = i + 1 ){
