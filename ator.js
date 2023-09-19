@@ -32,7 +32,6 @@ function verificaColisao (){
     }
   }
     }
-  
 }
 
 function voltaAtorParaPosicaoInicial (){

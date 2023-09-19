@@ -5,19 +5,15 @@ let comprimentoDoCarro = 250;
 let alturaDoCarro = 150;
 
 
-
-
 function mostraCarro (){
   for  (let i = 0; i < imagemCarros.length; i = i + 1 ){
   image(imagemCarros[i], xCarros [i] , yCarros [i] , comprimentoDoCarro , alturaDoCarro );
  
   }
 }
-
 function movimentaCarro (){
   for ( let i = 0 ; i < imagemCarros.length; i = i + 1 ){
   xCarros [i] -= velocidadeCarros [i];
-
   }
 }
 
