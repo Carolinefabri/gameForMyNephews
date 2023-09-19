@@ -1,6 +1,6 @@
 // ator
-let yAtor = 366;
-let xAtor = 90;
+let yAtor = 645;
+let xAtor = 450;
 let colisao = false;
 let meusPontos  = 0;
 
@@ -36,14 +36,14 @@ function verificaColisao (){
 }
 
 function voltaAtorParaPosicaoInicial (){
-  yAtor = 366;
+  yAtor = 645;
 }
 
 function incluiPontos (){
   textAlign(CENTER)
-  textSize(25)
+  textSize(50)
   fill(color(244, 232, 105))
-  text(meusPontos, width / 5, 27);
+  text(meusPontos, width /5, 45);
 }
 
 function marcaPonto (){

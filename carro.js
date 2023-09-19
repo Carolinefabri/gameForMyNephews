@@ -1,8 +1,8 @@
-let yCarros = [40,96,150 , 210 , 270 , 318];
-let velocidadeCarros = [ 2, 3 , 4.5 , 5 , 3.2 , 2.7];
-let xCarros = [ 600 , 600 , 600 , 600 , 600 , 600 ];
-let comprimentoDoCarro = 50;
-let alturaDoCarro = 40;
+let yCarros = [100,196,280 , 380 , 450 , 578];
+let velocidadeCarros = [ 5, 4 , 7.5 , 6 , 4.2 , 4.7];
+let xCarros = [ 1350 , 1350 , 1350 , 1350 , 1350 , 1350 ];
+let comprimentoDoCarro = 70;
+let alturaDoCarro = 50;
 
 
 
@@ -24,7 +24,7 @@ function movimentaCarro (){
 function voltaPosicaoInicialDoCarro (){
   for (let i = 0; i < imagemCarros.length; i = i + 1 ){
   if ( passouTodaATela(xCarros[i])){
-    xCarros [i] = 600;
+    xCarros [i] = 1350;
   }
  }
 }
