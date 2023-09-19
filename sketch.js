@@ -1,7 +1,7 @@
 
 
 function setup() {
-    createCanvas(500, 400);
+    createCanvas(1400, 700);
     somDaTrilha.loop();
     
   }
