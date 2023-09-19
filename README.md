@@ -55,3 +55,6 @@ To enjoy this game, follow these steps:
 
 ## Acknowledgments
 I would like to express my gratitude to my nephews for inspiring this project. Their enthusiasm and sense of adventure have made this game truly special. Additionally, I want to thank the open-source community for providing valuable resources and tools that made it possible to develop this game with JavaScript. Enjoy playing, and may your skills and reflexes shine as you help our characters safely cross the bustling road!
+
+
+https://carolinefabri.github.io/gameForMyNephews/ 
